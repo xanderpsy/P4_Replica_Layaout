@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">P4_Replica_Layaout</string>
+    <string name="sim">Mi sim</string>
+    <string name="transfiere">Transfiere tu numero</string>
+    <string name="recarga">Recarga</string>
+    <string name="tienda">Tienda</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="dia_de_perros">Dia de perros</string>
+    <string name="minutos_mas">10 Minutos+</string>
+    <string name="pegate">Pegate Radio</string>
+</resources>

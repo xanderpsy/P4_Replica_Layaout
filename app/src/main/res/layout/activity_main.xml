@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rl0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/v"
+        android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/ivTriangulo"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            app:srcCompat="@android:drawable/arrow_down_float" />
+
+        <ImageView
+            android:id="@+id/ivDia_Perros"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:layout_below="@id/ivTriangulo"
+            android:layout_marginTop="10dp"
+
+
+
+            app:srcCompat="@drawable/img_5" />
+
+        <TextView
+            android:id="@+id/tvDia_Perros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivDia_Perros"
+            android:gravity="center"
+            android:text="@string/dia_de_perros"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/ivMinutos_mas"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_below="@id/tvDia_Perros"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/img_6" />
+
+        <TextView
+            android:id="@+id/tvDia_Minutos_mas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivMinutos_mas"
+            android:gravity="center"
+            android:text="@string/minutos_mas"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/ivDia_Pegate"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_below="@id/tvDia_Minutos_mas"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/img_7" />
+
+        <TextView
+            android:id="@+id/tvPegate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivDia_Pegate"
+            android:gravity="center"
+            android:text="@string/pegate"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/ivchicharo"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_below="@id/tvPegate"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/img_8" />
+
+
+
+    </RelativeLayout>
+   <View
+       android:id="@+id/v"
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       android:layout_centerInParent="true">
+
+   </View>
+
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/v"
+        android:background="@color/green">
+
+
+        <ImageView
+            android:id="@+id/ivCirculo"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:srcCompat="@android:drawable/radiobutton_off_background" />
+
+        <ImageView
+            android:id="@+id/ivChip"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/ivCirculo"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/img" />
+
+        <TextView
+            android:id="@+id/tvChip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivChip"
+            android:gravity="center"
+            android:text="@string/sim"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/ivTransfiere"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/tvChip"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/img_1" />
+
+        <TextView
+            android:id="@+id/tvTransfiere"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivTransfiere"
+            android:gravity="center"
+            android:text="@string/transfiere"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/ivRecarga"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/tvTransfiere"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/img_2" />
+
+        <TextView
+            android:id="@+id/tvRecarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivRecarga"
+            android:gravity="center"
+            android:text="@string/recarga"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/ivTienda"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/tvRecarga"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/img_3" />
+
+        <TextView
+            android:id="@+id/tvTienda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivTienda"
+            android:gravity="center"
+            android:text="@string/tienda"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/ivAyuda"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/tvTienda"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/img_4" />
+
+        <TextView
+            android:id="@+id/tvAyuda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivAyuda"
+            android:gravity="center"
+            android:text="@string/ayuda"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black"
+
+        />
+
+</RelativeLayout>
